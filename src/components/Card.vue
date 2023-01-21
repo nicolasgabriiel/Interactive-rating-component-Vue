@@ -1,14 +1,19 @@
 <template>
     <section>
         <h1><img src="../assets/icon-star.svg"/> </h1>
+        <Texto/>
     </section>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import Texto from "./Texto.vue"
 
 export default defineComponent({
     name: "card-component-interactive",
+    components: ({
+        Texto
+    })
 
 })
 </script>

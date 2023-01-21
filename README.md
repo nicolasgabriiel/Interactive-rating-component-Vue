@@ -10,7 +10,7 @@
 - [x] Estilizar background
 - [x] Estruturar componente card
 - [x] Estilizar Componente Card
-- [ ] Criar Elemento Texto
+- [x] Criar Elemento Texto
 - [ ] Estruturar Elemento Texto
 - [ ] Estilizar Elemento Texto
 - [ ] Criar Elemento Barra
