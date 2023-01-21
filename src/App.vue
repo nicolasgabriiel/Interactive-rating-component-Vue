@@ -17,8 +17,12 @@ export default defineComponent({
 </script>
 <style >
 @import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
 .background{
+  font-family: 'Overpass';
   height: 100vh;
+
 }
 
 
