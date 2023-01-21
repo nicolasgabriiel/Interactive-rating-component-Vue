@@ -1,5 +1,7 @@
 <template>
-    <h1></h1>
+    <section class="botao">
+        <button>submit</button>
+    </section>
 </template>
 
 <script lang="ts">
@@ -9,3 +11,28 @@ export default defineComponent({
     name: "Botao-de-Chamada",
 })
 </script>
+
+<style scoped>
+.botao{
+    margin: 0 40px;
+}
+.botao button{
+    margin-bottom: 50px;
+    width: 100%;
+    border: none;
+    padding: 15px 0;
+    color: white;
+    background-color:rgb(255,117,14);
+    font-size: 16px;
+    font-weight: bold;
+    border-radius:100px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: .5s;
+}
+.botao button:hover{
+    background-color: white;
+    color:rgb(255,117,14);
+    cursor: pointer;
+}
+</style>
