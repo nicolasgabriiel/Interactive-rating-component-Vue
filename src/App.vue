@@ -13,4 +13,10 @@ export default defineComponent({
   }
 });
 </script>
+<style >
+@import url(./reset.css);
+
+
+
+</style>
 
