@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section class="texto">
         <h2>How did we do?</h2>
         <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
     </section>
@@ -14,16 +14,16 @@ export default defineComponent({
 </script>
 
 <style scoped>
-section{
+.texto{
     padding: 0 40px;
 }
-h2{
+.texto h2{
     color: white;
     font-size: 30px;
     margin-bottom: 15px;
 
 }
-p{
+.texto p{
     color: #727983;
     width: 350px;
     line-height: 25px;

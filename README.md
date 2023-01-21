@@ -13,9 +13,9 @@
 - [x] Criar Elemento Texto
 - [x] Estruturar Elemento Texto
 - [x] Estilizar Elemento Texto
-- [ ] Criar Elemento Barra
-- [ ] Estruturar Elemento Barra
-- [ ] Estilizar Elemento Barra
+- [x] Criar Elemento Barra
+- [x] Estruturar Elemento Barra
+- [x] Estilizar Elemento Barra
 - [ ] Criar Elemento Botao
 - [ ] Estruturar Elemento Botao
 - [ ] Estilizar Elemento Botao
