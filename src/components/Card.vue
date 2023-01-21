@@ -3,6 +3,7 @@
         <h1><img src="../assets/icon-star.svg"/> </h1>
         <Texto/>
         <Barra/>
+        <Botao/>
     </section>
 </template>
 
@@ -10,12 +11,14 @@
 import { defineComponent } from 'vue'
 import Texto from "./Texto.vue"
 import Barra from "./Barra.vue"
+import Botao from "./Botao.vue"
 
 export default defineComponent({
     name: "card-component-interactive",
     components: ({
         Texto,
-        Barra
+        Barra,
+        Botao
     })
 
 })
