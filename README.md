@@ -1,24 +1,28 @@
-# novo-projeto
+# Interactive Rating Component 
 
-## Project setup
-```
-npm install
-```
+### Planejamento do projeto 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- [x] Enviar imagens
+- [x] Redefinir projeto
+- [ ] Importar reset css
+- [ ] Criar componente card 
+- [ ] Importar Fonte
+- [ ] Estruturar componente card
+- [ ] Estilizar Componente Card
+- [ ] Criar Elemento Texto
+- [ ] Estruturar Elemento Texto
+- [ ] Estilizar Elemento Texto
+- [ ] Criar Elemento Barra
+- [ ] Estruturar Elemento Barra
+- [ ] Estilizar Elemento Barra
+- [ ] Criar Elemento Botao
+- [ ] Estruturar Elemento Botao
+- [ ] Estilizar Elemento Botao
+- [ ] Definir Metodo de seleção barra
+- [ ] Definir Método de escolha botao
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
