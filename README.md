@@ -8,8 +8,8 @@
 - [x] Criar componente card 
 - [x] Importar Fonte
 - [x] Estilizar background
-- [ ] Estruturar componente card
-- [ ] Estilizar Componente Card
+- [x] Estruturar componente card
+- [x] Estilizar Componente Card
 - [ ] Criar Elemento Texto
 - [ ] Estruturar Elemento Texto
 - [ ] Estilizar Elemento Texto
