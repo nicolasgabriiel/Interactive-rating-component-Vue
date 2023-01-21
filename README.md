@@ -7,6 +7,7 @@
 - [x] Importar reset css
 - [x] Criar componente card 
 - [x] Importar Fonte
+- [x] Estilizar background
 - [ ] Estruturar componente card
 - [ ] Estilizar Componente Card
 - [ ] Criar Elemento Texto
