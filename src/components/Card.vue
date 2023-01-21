@@ -1,5 +1,7 @@
 <template>
-    <h1>alou</h1>
+    <section>
+        <h1><img src="../assets/icon-star.svg"/> </h1>
+    </section>
 </template>
 
 <script lang="ts">
@@ -10,3 +12,9 @@ export default defineComponent({
 
 })
 </script>
+
+<style scoped> 
+    section{
+        background-color:#202731 ;
+    }
+</style>
