@@ -11,8 +11,8 @@
 - [x] Estruturar componente card
 - [x] Estilizar Componente Card
 - [x] Criar Elemento Texto
-- [ ] Estruturar Elemento Texto
-- [ ] Estilizar Elemento Texto
+- [x] Estruturar Elemento Texto
+- [x] Estilizar Elemento Texto
 - [ ] Criar Elemento Barra
 - [ ] Estruturar Elemento Barra
 - [ ] Estilizar Elemento Barra

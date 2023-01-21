@@ -20,7 +20,6 @@ export default defineComponent({
 
 <style scoped> 
     section{
-        width: 300px;
         height: 300px;
         background-image: radial-gradient(circle at 50% 0, #252C35 0%, #171E28 100%);
         border-radius: 40px;
@@ -29,7 +28,7 @@ export default defineComponent({
         background-color: #262F38;
         display: inline-block;
         padding: 15px;
-        margin: 25px;
+        margin: 40px;
         border-radius: 100px;
     }
     h1 img{
