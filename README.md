@@ -5,7 +5,7 @@
 - [x] Enviar imagens
 - [x] Redefinir projeto
 - [x] Importar reset css
-- [ ] Criar componente card 
+- [x] Criar componente card 
 - [ ] Importar Fonte
 - [ ] Estruturar componente card
 - [ ] Estilizar Componente Card
