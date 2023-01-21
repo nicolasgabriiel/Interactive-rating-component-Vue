@@ -1,11 +1,11 @@
 <template>
     <section class="barra">
         <li>
-            <ul><button>1</button></ul>
-            <ul><button>2</button></ul>
-            <ul><button>3</button></ul>
-            <ul><button>4</button></ul>
-            <ul><button>5</button></ul>
+            <ul @click="escolha(1)"><button @click="escolha(1)">1</button></ul>
+            <ul @click="escolha(2)"><button @click="escolha(2)">2</button></ul>
+            <ul @click="escolha(3)"><button @click="escolha(3)">3</button></ul>
+            <ul @click="escolha(4)"><button @click="escolha(4)">4</button></ul>
+            <ul @click="escolha(5)"><button @click="escolha(5)">5</button></ul>
         </li>
     </section>
 </template>
@@ -15,6 +15,11 @@ import { defineComponent } from 'vue'
 
 export default defineComponent({
     name: "Barra-de-Escolha",
+    methods: {
+        escolha(numero: number){
+            console.log(numero)
+        }
+    }
 })
 </script>
 
