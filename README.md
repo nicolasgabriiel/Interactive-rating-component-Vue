@@ -19,7 +19,7 @@
 - [x] Criar Elemento Botao
 - [x] Estruturar Elemento Botao
 - [x] Estilizar Elemento Botao
-- [ ] Definir Metodo de seleção barra
+- [x] Definir Metodo de seleção barra
 - [ ] Definir Método de escolha botao
 - [ ] 
 - [ ] 
