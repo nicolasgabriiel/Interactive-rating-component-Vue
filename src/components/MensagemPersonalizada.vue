@@ -1,5 +1,5 @@
 <template>
-    <p class="mensagemPersonalizada">You selected {{numero}} out of 5</p>
+    <div class="capsula"><p class="mensagemPersonalizada">You selected {{numero}} out of 5</p></div>
 </template>
 
 <script lang="ts">
@@ -18,6 +18,9 @@ export default defineComponent({
 </script>
 
 <style scoped>
+.capsula{
+    text-align: center;
+}
 .mensagemPersonalizada{
     background-color: #262F38;
     display: inline-block;
@@ -25,5 +28,6 @@ export default defineComponent({
     border-radius: 20px;
     color: #FF760D;
     font-size: 16px;
+
 }
 </style>

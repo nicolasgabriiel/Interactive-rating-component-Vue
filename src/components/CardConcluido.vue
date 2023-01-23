@@ -31,7 +31,10 @@ export default defineComponent({
         margin: 40px;
         border-radius: 100px;
     }
-    .card h1 img{
-        width: 50px;
+    .card  img{
+        display: flex;
+        margin: 0 auto;
+        padding: 50px 0 30px 0;
+        width: 40%;
     }
 </style>
