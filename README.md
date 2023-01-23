@@ -21,8 +21,8 @@
 - [x] Estilizar Elemento Botao
 - [x] Definir Metodo de seleção barra
 - [x] Definir Método de escolha botao
-- [ ] Criar Componente mensagem Personalizado
-- [ ] Estruturar Componente mensagem Personalizado
+- [x] Criar Componente mensagem Personalizado
+- [x] Estruturar Componente mensagem Personalizado
 - [ ] Estilizar Componente mensagem Personalizado
 - [ ] Tornar mensagem reativa
 - [ ] Criar Componente mensagem

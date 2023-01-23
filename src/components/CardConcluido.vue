@@ -1,7 +1,7 @@
 <template>
     <section class="card">
         <img src="../assets/illustration-thank-you.svg"> 
-        <MensagemPersonalizada/>
+        <MensagemPersonalizada />
     </section>
 </template>
 
@@ -21,6 +21,8 @@ export default defineComponent({
     .card{
         background-image: radial-gradient(circle at 50% 0, #252C35 0%, #171E28 100%);
         border-radius: 40px;
+        width: 430px;
+        height: 473.64px;
     }
     .card h1{
         background-color: #262F38;
