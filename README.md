@@ -20,10 +20,13 @@
 - [x] Estruturar Elemento Botao
 - [x] Estilizar Elemento Botao
 - [x] Definir Metodo de seleção barra
-- [ ] Definir Método de escolha botao
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
+- [x] Definir Método de escolha botao
+- [ ] Criar Componente mensagem Personalizado
+- [ ] Estruturar Componente mensagem Personalizado
+- [ ] Estilizar Componente mensagem Personalizado
+- [ ] Tornar mensagem reativa
+- [ ] Criar Componente mensagem
+- [ ] Estilizar Componente mensagem 
+- [ ] Estruturar Componente mensagem 
+- [ ] Ligar as propriedades
+- [ ] Escrever o Readme

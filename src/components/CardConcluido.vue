@@ -1,15 +1,19 @@
 <template>
     <section class="card">
-        <h1><img src="../assets/illustration-thank-you.svg"> </h1>
+        <img src="../assets/illustration-thank-you.svg"> 
+        <MensagemPersonalizada/>
     </section>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import MensagemPersonalizada from './MensagemPersonalizada.vue';
 
 export default defineComponent({
     name: "card-complete",
-
+    components: {
+        MensagemPersonalizada
+    }
 })
 </script>
 
