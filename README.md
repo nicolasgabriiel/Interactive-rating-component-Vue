@@ -25,8 +25,8 @@
 - [x] Estruturar Componente mensagem Personalizado
 - [x] Estilizar Componente mensagem Personalizado
 - [ ] Tornar mensagem reativa
-- [ ] Criar Componente mensagem
-- [ ] Estilizar Componente mensagem 
-- [ ] Estruturar Componente mensagem 
+- [x] Criar Componente mensagem
+- [x] Estilizar Componente mensagem 
+- [x] Estruturar Componente mensagem 
 - [ ] Ligar as propriedades
 - [ ] Escrever o Readme
