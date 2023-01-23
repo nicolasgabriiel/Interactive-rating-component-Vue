@@ -23,7 +23,7 @@
 - [x] Definir Método de escolha botao
 - [x] Criar Componente mensagem Personalizado
 - [x] Estruturar Componente mensagem Personalizado
-- [ ] Estilizar Componente mensagem Personalizado
+- [x] Estilizar Componente mensagem Personalizado
 - [ ] Tornar mensagem reativa
 - [ ] Criar Componente mensagem
 - [ ] Estilizar Componente mensagem 
