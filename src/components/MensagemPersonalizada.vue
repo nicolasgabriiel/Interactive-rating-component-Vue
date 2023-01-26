@@ -1,5 +1,5 @@
 <template>
-    <div class="capsula"><p class="mensagemPersonalizada">You selected {{numero}} out of 5</p></div>
+    <div class="capsula"><p class="mensagemPersonalizada">You selected {{NumeroEscolhido}} out of 5</p></div>
 </template>
 
 <script lang="ts">
@@ -10,6 +10,13 @@ export default defineComponent({
    data(){
     return{
         numero: 1,
+    }
+   },
+   props:{
+    NumeroEscolhido:{
+    type:Number,
+    required: true
+    
     }
    }
     

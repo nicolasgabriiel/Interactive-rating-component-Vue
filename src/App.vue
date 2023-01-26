@@ -1,5 +1,5 @@
 <template>
-  <div class="background" @click="mudartela">
+  <div class="background" >
     <section v-bind:class ="{'hide': hide}">
       <Card />
     </section>
@@ -16,16 +16,7 @@ import CardConcluido from "./components/CardConcluido.vue"
 
 export default defineComponent({
   name: 'App',
-  data(){
-    return{
-      hide: false
-    }
-  },
-  methods:{
-    mudartela(){
-      this.hide = true
-    }
-  },
+  
   components: {
     Card,
     CardConcluido

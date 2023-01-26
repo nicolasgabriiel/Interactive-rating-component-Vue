@@ -1,6 +1,6 @@
 <template>
     <section class="botao">
-        <button>submit</button>
+        <button @click="mudartela">submit</button>
     </section>
 </template>
 
@@ -9,6 +9,16 @@ import { defineComponent } from 'vue'
 
 export default defineComponent({
     name: "Botao-de-Chamada",
+    methods:{
+    mudartela(){
+      this.hide = true
+    }
+  },
+  data(){
+    return{
+      hide: false
+    }
+  },
 })
 </script>
 

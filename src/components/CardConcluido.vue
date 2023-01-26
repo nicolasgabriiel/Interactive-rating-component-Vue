@@ -1,7 +1,7 @@
 <template>
     <section class="card">
         <img src="../assets/illustration-thank-you.svg"> 
-        <MensagemPersonalizada />
+        <MensagemPersonalizada :NumeroEscolhido="escolhido"/>
         <Mensagem/>
     </section>
 </template>

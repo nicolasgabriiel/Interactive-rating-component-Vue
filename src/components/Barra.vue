@@ -1,5 +1,5 @@
 <template>
-    <section class="barra">
+    <section class="barra" >
         <li>
             <button @click="escolha(1)" v-bind:class="{'ativado' : botaoHabilitado[0]}">1</button>
             <button @click="escolha(2)" v-bind:class="{'ativado' : botaoHabilitado[1]}">2</button>
@@ -18,7 +18,7 @@ export default defineComponent({
     data(){
         return{
             botaoHabilitado: [false,false,false,false,false],
-            escolhido: 0,
+            escolhido: 0
         }
     },
     methods: {
@@ -32,6 +32,7 @@ export default defineComponent({
             console.log(this.escolhido)
         },
     },
+
    
 })
 </script>
