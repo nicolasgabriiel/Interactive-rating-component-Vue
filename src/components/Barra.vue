@@ -1,7 +1,7 @@
 <template>
     <section class="barra" >
         <li>
-            <button @click="escolha(1)" v-bind:class="{'ativado' : botaoHabilitado[0]}">1</button>
+            <button @click="$emit('escolhido')" v-bind:class="{'ativado' : botaoHabilitado[0]}">1</button>
             <button @click="escolha(2)" v-bind:class="{'ativado' : botaoHabilitado[1]}">2</button>
             <button @click="escolha(3)" v-bind:class="{'ativado' : botaoHabilitado[2]}">3</button>
             <button @click="escolha(4)" v-bind:class="{'ativado' : botaoHabilitado[3]}">4</button>
@@ -13,7 +13,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 
-import { Emitter } from 'mitt'
+
 
 export default defineComponent({
     name: "Barra-de-Escolha",
@@ -33,8 +33,7 @@ export default defineComponent({
             }
             this.botaoHabilitado[numero - 1] = true
             this.escolhido = numero
-            console.log(this.escolhido)
-            this.emitter.emit('meu-evento', this.escolhido)
+            return this.escolhido
             
         },
     }

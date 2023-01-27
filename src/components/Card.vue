@@ -2,7 +2,7 @@
     <section class="card">
         <h1><img src="../assets/icon-star.svg"/> </h1>
         <Texto/>
-        <Barra />
+        <Barra @some-event="callback"/>
         <Botao/>
     </section>
 </template>
@@ -20,6 +20,11 @@ export default defineComponent({
         Barra,
         Botao
     }),
+    methods:{
+        callback(){
+            console.log('aa')
+        }
+    }
 
     
 
