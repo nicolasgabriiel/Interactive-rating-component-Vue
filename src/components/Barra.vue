@@ -13,28 +13,36 @@
 <script lang="ts">
 import { defineComponent } from 'vue'
 
+import { Emitter } from 'mitt'
+
 export default defineComponent({
     name: "Barra-de-Escolha",
     data(){
         return{
             botaoHabilitado: [false,false,false,false,false],
-            escolhido: 0
+            escolhido: 0    
         }
     },
     methods: {
         escolha(numero: number){
             
+            
+
             for(let i = 0; i < this.botaoHabilitado.length; i++){
                 this.botaoHabilitado[i] = false
             }
             this.botaoHabilitado[numero - 1] = true
             this.escolhido = numero
             console.log(this.escolhido)
+            this.emitter.emit('meu-evento', this.escolhido)
+            
         },
-    },
+    }
 
    
 })
+
+
 </script>
 
 <style scoped>

@@ -14,6 +14,7 @@ import { defineComponent } from 'vue';
 import Card from "./components/Card.vue"
 import CardConcluido from "./components/CardConcluido.vue"
 
+
 export default defineComponent({
   name: 'App',
   

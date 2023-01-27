@@ -2,8 +2,7 @@
     <section class="card">
         <h1><img src="../assets/icon-star.svg"/> </h1>
         <Texto/>
-        <Barra :escolhido="escolhido"/>
-        <span>{{ escolhido }}</span>
+        <Barra />
         <Botao/>
     </section>
 </template>
@@ -21,12 +20,7 @@ export default defineComponent({
         Barra,
         Botao
     }),
-    props:{
-        escolhido:{
-            type: Number,
-            default: 0
-        }
-    }
+
     
 
 })
