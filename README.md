@@ -32,10 +32,12 @@ Como era a minha segunda vez desenvolvendo um projeto próprio em Vue.Js, foi um
 ------
 <p align="center"> Status Ativos</p>
   <div align="center"><img width="540px" src="./src/assets/imagem2.png"></img> </div>
+
 ------
   <p align="center"> Finalizado</p>
   <div align="center"><img width="540px" src="./src/assets/imagem3.png"></img> </div>
-  ------
+  
+------
 
 
 ### Link: https://card-compenent.vercel.app
