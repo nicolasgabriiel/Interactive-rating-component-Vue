@@ -27,7 +27,7 @@ Como era a minha segunda vez desenvolvendo um projeto próprio em Vue.Js, foi um
 ### Screenshots
 
 <p align="center"> Home</p>
-  <div align="center"><img width="768px" src="./src/assets/imamgem1.png"></img> </div>
+  <div align="center"><img width="768px" src="./src/assets/imagem1.png"></img> </div>
 
 ------
 <p align="center"> Status Ativos</p>
