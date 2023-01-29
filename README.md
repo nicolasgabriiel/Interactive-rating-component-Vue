@@ -27,14 +27,14 @@ Como era a minha segunda vez desenvolvendo um projeto próprio em Vue.Js, foi um
 ### Screenshots
 
 <p align="center"> Home</p>
-  <div align="center"><img width="768px" src="./src/assets/imagem1.png"></img> </div>
+  <div align="center"><img width="540px" src="./src/assets/imagem1.png"></img> </div>
 
 ------
 <p align="center"> Status Ativos</p>
-  <div align="center"><img width="768px" src="./src/assets/imagem2.png"></img> </div>
+  <div align="center"><img width="540px" src="./src/assets/imagem2.png"></img> </div>
 ------
   <p align="center"> Finalizado</p>
-  <div align="center"><img width="768px" src="./src/assets/imagem3.png"></img> </div>
+  <div align="center"><img width="540px" src="./src/assets/imagem3.png"></img> </div>
   ------
 
 
@@ -105,10 +105,11 @@ Passando um dado dentro de um emmit
 
 -  Site pessoal - [Nicolas Gabriel](https://www.linkedin.com/in/nicolasgabriiel/)
 
-<div  align="center">
+<div  align="left">
 
 ### Planejamento de Projeto
-</div>
+
+
 - [x] Enviar imagens
 - [x] Redefinir projeto
 - [x] Importar reset css
@@ -131,9 +132,9 @@ Passando um dado dentro de um emmit
 - [x] Criar Componente mensagem Personalizado
 - [x] Estruturar Componente mensagem Personalizado
 - [x] Estilizar Componente mensagem Personalizado
-- [ ] Tornar mensagem reativa
+- [x] Tornar mensagem reativa
 - [x] Criar Componente mensagem
 - [x] Estilizar Componente mensagem 
 - [x] Estruturar Componente mensagem 
 - [x] Ligar as propriedades
-- [ ] Escrever o Readme
+- [x] Escrever o Readme
