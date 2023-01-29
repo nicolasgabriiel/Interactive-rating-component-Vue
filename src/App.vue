@@ -1,7 +1,7 @@
 <template>
   <div class="background" >
     <section v-bind:class ="{'hide': hide}">
-      <Card />
+      <Card v-on:hide="Funcao" v-on:valor="descobrirValor"/>
     </section>
     <section v-bind:class ="{'hide': !hide}">
       <CardConcluido/>
@@ -21,9 +21,44 @@ export default defineComponent({
   components: {
     Card,
     CardConcluido
+  },
+  data(){
+    return{
+      hide: false,
+      valor: 0
+    }
+  },
+  methods:{
+    Funcao(){
+      this.hide = true
+    },
+    descobrirValor(evento: any){
+      this.valor = evento.meuValor
+    }
   }
 });
 </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <style >
 @import url(./reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
