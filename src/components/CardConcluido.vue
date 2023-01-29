@@ -2,7 +2,7 @@
     <section class="card">
         <img src="../assets/illustration-thank-you.svg">
         <div class="capsula">
-            <p class="mensagemPersonalizada">You selected {{ NumeroEscolhido }} out of 5</p>
+            <p class="mensagemPersonalizada">You selected {{ valorEsperado }} out of 5</p>
         </div>
         <section>
             <h2>Thank you!</h2>
@@ -18,9 +18,10 @@ import { defineComponent } from 'vue'
 
 export default defineComponent({
     name: "card-complete",
-    data() {
-        return {
-            NumeroEscolhido: 1,
+    props: {
+        valorEsperado: {
+            type: Number,
+            default: 0,
         }
     }
 })

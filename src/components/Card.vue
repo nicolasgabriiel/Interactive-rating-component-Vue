@@ -41,12 +41,11 @@ export default defineComponent({
             }
             this.botaoHabilitado[numero - 1] = true
             this.escolhido = numero
-            console.log(this.escolhido)
             this.$emit('valor', { meuValor: this.escolhido } )
         },
         mudartela() {
             if(this.escolhido === 0){
-                alert('escolha um valor de 1 a 5')
+                alert('Choose a value from 1 to 5!')
             }else{
                 this.$emit('hide')
             }

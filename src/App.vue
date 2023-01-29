@@ -4,7 +4,7 @@
       <Card v-on:hide="Funcao" v-on:valor="descobrirValor"/>
     </section>
     <section v-bind:class ="{'hide': !hide}">
-      <CardConcluido/>
+      <CardConcluido :valor-esperado='valor' />
     </section>
     </div>
 </template>
