@@ -27,14 +27,14 @@ Como era a minha segunda vez desenvolvendo um projeto próprio em Vue.Js, foi um
 ### Screenshots
 
 <p align="center"> Home</p>
-  <div align="center"><img width="768px" src="./src/assets/imagem1"></img> </div>
+  <div align="center"><img width="768px" src="./src/assets/imamgem1.png"></img> </div>
 
 ------
 <p align="center"> Status Ativos</p>
-  <div align="center"><img width="768px" src="./src/assets/imagem2"></img> </div>
-  ------
+  <div align="center"><img width="768px" src="./src/assets/imagem2.png"></img> </div>
+------
   <p align="center"> Finalizado</p>
-  <div align="center"><img width="768px" src="./src/assets/imagem3"></img> </div>
+  <div align="center"><img width="768px" src="./src/assets/imagem3.png"></img> </div>
   ------
 
 
@@ -108,7 +108,7 @@ Passando um dado dentro de um emmit
 <div  align="center">
 
 ### Planejamento de Projeto
-
+</div>
 - [x] Enviar imagens
 - [x] Redefinir projeto
 - [x] Importar reset css
